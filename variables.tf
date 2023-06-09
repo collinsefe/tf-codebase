@@ -7,7 +7,7 @@ variable "ec2_ami" {
 variable "ec2_key_name" {
   description = " This is a variable to manage ec2 key name"
   type        = string
-  default     = "test100"
+  default     = "my-repos"
 }
 
 variable "ec2_instance_type" {
