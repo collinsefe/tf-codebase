@@ -1,7 +1,7 @@
 resource "aws_security_group" "ec2_sg" {
   name        = var.sg_name
   description = "Allow SSH and HTTP inbound traffics"
-  vpc_id      = "vpc-0c93d8659c29c4e57"
+  vpc_id      = "vpc-037cc5b1e4906e2de" #vpc-0c93d8659c29c4e57
 
   ingress {
     description = "SSH from VPC"
