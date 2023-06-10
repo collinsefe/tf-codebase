@@ -1,7 +1,7 @@
 variable "ec2_ami" {
   description = " This is a variable to manage ec2 AMI type"
   type        = string
-  default     = "ami-01dd271720c1ba44f"
+  default     = "ami-02fb3e77af3bea031" #ami-01dd271720c1ba44f
 }
 
 variable "ec2_key_name" {
