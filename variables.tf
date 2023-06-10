@@ -28,7 +28,7 @@ variable "default_tags" {
 
   variable "bucket" {}
   variable "key" {}
-  variable "sg_name" {
-   type        = string
-  default     = "weather-app"
-  }
+  variable "sg_name" {}
+#    type        = string
+#   default     = "weather-app"
+#   }
