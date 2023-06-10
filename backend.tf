@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    //bucket = "techbleat-terraform-state-files"
-    bucket = var.bucket
+    bucket = "collinsorighose-tf"
+    //bucket = var.bucket
     key    = var.key
     //key    = "dev/terraform.tfstate"
     region = "eu-west-2"
