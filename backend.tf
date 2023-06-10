@@ -10,11 +10,11 @@ terraform {
     bucket = var.bucket
     key    = var.key
     //key    = "dev/terraform.tfstate"
-    region = "eu-west-1"
+    region = "eu-west-2"
   }
   required_version = ">= 1.2.0"
 }
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "eu-west-2"
 }
